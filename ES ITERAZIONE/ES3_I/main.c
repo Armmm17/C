@@ -8,14 +8,27 @@ introdotto).
 
 #include <stdio.h>
 
-int main(void){
-	int valore, i;
-	float somma, media;
+int main() {
 	
-	printf("Inserisci il valore: ");
-	scanf("%d", &)
-	
-	
-	
-	return 0;
+    int valore, somma = 0, j = 0;
+    float media;
+
+    printf("Inserisci un numero compreso tra 18 e 30:\n");
+    while (1) {
+        scanf("%d", &valore);
+        if (valore == 9999 || valore < 18 || valore > 30) {
+            break;
+        }
+        somma += valore;
+        j++;
+    }
+
+    if (j > 0) {
+        media = (float) somma / j;
+        printf("La media dei numeri inseriti è: %.2f\n", media);
+    } else {
+        printf("Nessun numero inserito.\n");
+    }
+
+    return 0;
 }
