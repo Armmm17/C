@@ -1,0 +1,3 @@
+C:/Users/antoa/Documents/Armando/Programmazione/C/ES2_IO/cmake-build-debug/CMakeFiles/ES2_IO.dir
+C:/Users/antoa/Documents/Armando/Programmazione/C/ES2_IO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/antoa/Documents/Armando/Programmazione/C/ES2_IO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
