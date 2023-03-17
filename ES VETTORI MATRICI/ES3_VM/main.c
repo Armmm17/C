@@ -47,12 +47,12 @@ int main(){
 		scanf("%d", &arrNumB[i]);
 	}
 	
-	
 	// Stampa arrNumA
 	for(i = 0; i < dimArrNum; i++){
 		printf("%d ", arrNumA[i]);
 	}
 	printf("\n");
+	
 	// Stampa arrNumB
 	for(i = 0; i < dimArrNum; i++){
 		printf("%d ", arrNumB[i]);
@@ -70,16 +70,13 @@ int main(){
 	}
 	printf("\n");
 	
-	
 	// Stampa arrNumC pos pari
 	for(i = 0; i < dimArrNum; i++){
 		if(i % 2 == 0){
 			printf("%d ", arrNumC[i]);	
 		}
-		
 	}
 	printf("\n");
-	
 	
 	// Stampa arrNumC pos dispari
 	for(i = 0; i < dimArrNum; i++){
@@ -88,14 +85,6 @@ int main(){
 		}
 	}
 	printf("\n");
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	return 0;
 }
