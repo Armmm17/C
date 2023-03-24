@@ -30,7 +30,7 @@ int main() {
     int vector[] = {19, 3, 15, 15, 7, 9, 9, 9, 9, 12, 3, 3, 3};
     vectorLen = 13;
 
-    // Identificazione della sequenza piï¿½ lunga di numeri consecutivi uguali
+    // Identificazione della sequenza più lunga di numeri consecutivi uguali
     for (i = 0; i < vectorLen; i++) {
         if (vector[i] == vector[i-1]) {
             count++;
